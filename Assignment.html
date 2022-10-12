@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+<style>
+.d-block{
+  filter: blur(4px);
+  height: 450px;
+}
+.col-lg-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  font-size: small;
+}
+.b{
+  font-size: small;
+}
+.a{
+  font-size: 2em;
+  font-weight: 400;
+}
+</style>
+</head>
+  
+<body>
+     <nav class="navbar navbar-expand-md  navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Presenting slides</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Homepage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">inactive link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="6000">
+            <img src="img/img001.jpg" class="d-block w-100" alt="...">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Example title.</h1>
+                <p>Statistical studies according to the American Language Association indicate the demand for Arabic increased by 126% in the United States of America alone between 2002 and 2009.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Register today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/img002.jpg" class="d-block w-100" alt="...">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Another example title.</h1>
+                <p>According to th British Council, teaching English in Britain contributes to the strengthening its economy by more than two billion pounds annually, and has created more than 26,000 jobs.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">I know more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/img003.jpg" class="d-block w-100" alt="...">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>One more for good measure.</h1>
+                <p>Statistics on the volume of language investment outside Britain varybfrom year to year, but the Executive Director of the British Council, Eddie Byers, believes that investment in teaching English abroad is not calculated on the financial level only, but also on the political level.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse the gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/img007.jpg" alt="" width="140" height="140">
+            <h2 class="fw-normal">Title</h2>
+            <p>Always remember that a computer does not have intelligence, but it acquires artificial intelligence through three main functional elements: the ability to analyze, the ability to control and logical reasoning</p>
+            <p><a class="btn btn-secondary" href="#">View details</a></p>
+          </div>
+          
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/img008.jpg" alt="" width="140" height="140">
+            <h2 class="fw-normal">Another title</h2>
+            <p> If we want to use a smart computer to process the Arabic language, we find ourselves facing a great challenge, especially since our language is characterized by the coherence and overlap of its systems. However, artificial intelligence enables us to obtain four types of processing, namely: phonological processing, morphological processing, grammatical processing, and processing semantic.</p>
+            <p><a class="btn btn-secondary" href="#">View details</a></p>
+          </div>
+          
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/img009.jpg" alt="" width="140" height="140">
+            <h2 class="fw-normal">A third address to confirm the information</h2>
+            <p>
+              Thanks to artificial intelligence research and techniques, we were able to move from the stage of dealing with the physicist to the stage of dealing with the logical, and this transition was reflected positively on how people deal with their living languages, and this means that it should be reflected positevely on how we deal with our Arabic language.
+             </p>
+            <p><a class="btn btn-secondary" href="#">View details</a></p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+        
+        <div class= "row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-xl-5 mt-lg-5 mt-md-5" style="border: 1px solid white;">
+            <h2 class="a">Distinguished first title. It will blow your mind.</h2>
+            <p class="b">The human face is a very complex and distinct part of his body. In fact, it is one of the most complex signaling systems we have available, it includes more than 40 independent muscles, both structurally and functionally, so that each of them can be operated independently of the other, it is one of the strongest indicators of emotions.</p></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6" style="border: 1px solid white;">
+              <img class="img-fluid" src="img/img004.jpg" alt="" height="500px" width="500px">
+          </div>
+        </div>
+        
+        <hr class="featurette-divider">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6" style="border: 1px solid white;">
+            <img class="img-fluid" src="img/img005.jpg" alt="" height="500px" width="500px">
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6  mt-xl-5 mt-lg-5 mt-md-5" style="border: 1px solid white;">
+            <h2 class="a">Oh yeah, that's good. See for yourself.</h2>
+            <p class="b">When we laugh or cry, we display our emotions, allowing others to peek into our mind while "reading" our faces based on changes in key facial components such as the eyes, eyebrows, eyelids, nose, and lips</p></div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class= "row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-xl-5 mt-lg-5 mt-md-5" style="border: 1px solid white;">
+            <h2 class="a">Finally, this Checkmate.</h2>
+            <p class="b">All muscles in our body are supported by nerves connected from all parts of the body to the spinal cord and brain. This neural communication is bidirectional, meaning that the nerve causes muscle contractions based on brain signals, and at the same time sends information about the state of the muscles to the brain</p></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6" style="border: 1px solid white;">
+              <img class="img-fluid" src="img/img006.jpg" alt="" height="500px" width="500px">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+      </div>
+
+      <footer class="container">
+        <p class="float-end"><a href="#">back to top</a></p>
+        <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Terms of use</a>&middot;<a href="#">Privacy Policy</a></p>
+      </footer>
+       
+</body>
+</html>
